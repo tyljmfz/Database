@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Folder>
+<open>1</open>
+    <name>Library</name>
+<Placemark><name>Accounting Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285608,34.019175</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282947,34.021844</coordinates></Point>
+</Placemark>
+<Placemark><name>Music Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283747,34.020135</coordinates></Point>
+</Placemark>
+<Placemark><name>Hoose Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286616,34.018677</coordinates></Point>
+</Placemark>
+<Placemark><name>VKC Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284003,34.021250</coordinates></Point>
+</Placemark>
+
+</Folder>
+
+<Folder>
+<open>1</open>
+    <name>Cafe</name>
+<Placemark><name>Lemonade Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286277,34.020654</coordinates></Point>
+</Placemark>
+<Placemark><name>CAPizza Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285783,34.019969</coordinates></Point>
+</Placemark>
+<Placemark><name>Trojan Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.282371,34.021263</coordinates></Point>
+</Placemark>
+<Placemark><name>Cammereli Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283866,34.019106</coordinates></Point>
+</Placemark>
+<Placemark><name>Starbucks Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282161,34.021658</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<open>1</open>
+    <name>School</name>
+<Placemark><name>Cinematic Sch</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286494,34.023564</coordinates></Point>
+</Placemark>
+<Placemark><name>Annenberg Sch</name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.286225,34.022158
+</coordinates></Point>
+</Placemark>
+<Placemark><name>Rossier Sch</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287120,34.019422</coordinates></Point>
+</Placemark>
+<Placemark><name>Roski Sch</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287120,34.019422</coordinates></Point>
+</Placemark>
+<Placemark><name>Sol Price Sch</name>
+<styleUrl>#z1</styleUrl><Point><coordinates> -118.283860,34.018939</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Placemark>
+<name>Convex Hull</name>
+<styleUrl>#orange-5px</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+   -118.286616,34.018677,0. 
+   -118.28712,34.019422,0.
+   -118.286494,34.023564,0.
+   -118.282161,34.021658,0. 
+   -118.282371,34.021263,0.
+   -118.28386,34.018939,0. 
+   -118.286616,34.018677,0.
+ <!-- End coordinates == start coordinates -->
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark> 
+<name>line(VKC Lib, Music Lib)</name>
+ <LineString>
+  <coordinates>
+   -118.284003,34.021250,0. 
+   -118.283747,34.020135,0.
+  </coordinates>
+ </LineString>
+</Placemark>
+
+<Placemark> 
+<name>line(VKC Lib, Leavey Lib)</name>
+ <LineString>
+  <coordinates>
+   -118.284003,34.021250,0. 
+   -118.282947,34.021844,0.
+  </coordinates>
+ </LineString>
+</Placemark>
+
+<Placemark> 
+<name>line(VKC Lib, Trojan Cafe)</name>
+ <LineString>
+  <coordinates>
+   -118.284003,34.021250,0. 
+   -118.282371,34.021263,0.
+  </coordinates>
+ </LineString>
+</Placemark>
+
+<Placemark> 
+<name>line(VKC Lib, Starbucks Cafe)</name>
+ <LineString>
+  <coordinates>
+   -118.284003,34.021250,0. 
+   -118.282161,34.021658,0.
+  </coordinates>
+ </LineString>
+</Placemark>
+
+
+
+</Document></kml>
